@@ -12,6 +12,7 @@ pipeline {
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
 	registryCredential = "CHANGE_ME"
     }
+	//test coding 
     ecr-public get-login-password --region us-east-1 
     stages {
 
